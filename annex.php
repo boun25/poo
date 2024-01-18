@@ -32,7 +32,7 @@
             nom_mt VARCHAR(50) NOT NULL,
             prenom_mt VARCHAR(80) NOT NULL,
             age INT NOT NULL
-        );*/
+        );
     
     //  Afficher la description de matable
     //     DESCRIBE matable;
@@ -72,7 +72,7 @@
         SELECT m.nom_mt, e.nom_ec
         FROM matable AS m
         JOIN ecole AS e
-        ON m.id_ec = e.id_ec;
+        ON m.id_ec = e.id_ec;*/
     ?>
 </body>
 </html>
